@@ -56,7 +56,7 @@ function Update() {
             />
           </div>
           <br />
-          <button className="btn btn-info w-full" onClick={() => modalRef.current.updateUser()}>
+          <button className="btn btn-info w-full" onClick={() => modalRef.current.showModal()}>
             Update
           </button>
         </form>
